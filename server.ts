@@ -49,4 +49,4 @@ io.on('connection', (socket: Socket) => {
 
 
 
-server.listen(8080,'10.0.0.134');
+server.listen(8080);
