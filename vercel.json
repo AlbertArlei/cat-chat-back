@@ -1,9 +1,10 @@
 {
-    "version": 2,
-    "builds": [
-        {
-            "src": "./server.ts",
-            "dest": "./server.ts"
-        }
-    ]
+  "version": 2,
+  "builds": [
+    {
+      "src": "./server.ts",
+      "dest": "./server.ts"
+    }
+  ],
+  "buildCommand": "npm run dev"
 }
