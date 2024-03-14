@@ -1,8 +1,8 @@
 {
-  "version": 2,
-  "builds": [
-    {
-      "src": "./server.ts"
-    }
-  ]
+    "version": 2,
+    "builds": [
+        {
+            "dest": "./server.ts"
+        }
+    ]
 }
