@@ -1,4 +1,4 @@
-import express from "express";
+import express, { request, response } from "express";
 import { Server, Socket } from "socket.io";
 import http from "http";
 
@@ -13,7 +13,9 @@ const io = new Server(server, {
 
 
 app.use(express.json());
-
+app.get('/', (request, response)=>{
+    response.status(200).end()
+});
 io.on('connection', (socket: Socket) => {
     console.log('a user connected', socket.id);
     socket.join('default');
