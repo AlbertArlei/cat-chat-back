@@ -2,8 +2,7 @@
   "version": 2,
   "builds": [
     {
-      "src": "./server.ts",
-      "dest": "./server.ts"
+      "src": "./server.ts"
     }
   ],
   "buildCommand": "npm run dev"
