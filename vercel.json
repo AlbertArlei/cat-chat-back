@@ -7,12 +7,12 @@
     ],
     "routes":[
         {
-            "src":"/",
+            "src":"server.ts",
             "dest":"/"
         },
         {
-            "src":"/socket.io",
-            "dest":"/"
+            "src":"server.ts",
+            "dest":"/socket.io"
         }
     ]
 }
